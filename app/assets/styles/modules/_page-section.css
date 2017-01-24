@@ -9,4 +9,9 @@
 	@mixin atMedium {
 		padding: 4.5rem 0;
 	}
+	
+	&--testimonials {
+		background:url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+		background-size: cover;
+	}
 }
