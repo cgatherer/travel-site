@@ -1,9 +1,9 @@
 .large-hero {
-	border-bottom: solid 10px $mainBlue;
-  	position: relative;
-  	
+  border-bottom: 10px solid $mainBlue;
+  position: relative;
+
   &__image {
-  	display:block;
+    display: block;
   }
 
   &__text-content {
@@ -24,6 +24,7 @@
     @mixin atSmall {
       font-size: 4.8rem;
     }
+
   }
 
   &__subtitle {
@@ -46,7 +47,7 @@
     max-width: 30rem;
     margin-left: auto;
     margin-right: auto;
-    
+
     @mixin atSmall {
       font-size: 1.875rem;
     }
